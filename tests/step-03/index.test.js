@@ -1,6 +1,6 @@
 // tests/index.test.js
 
-const parseQuery = require('../../src/queryParser');
+const parseQuery = require('../../src/queryParser3');
 
 test('Parse SQL Query', () => {
     const query = 'SELECT id, name FROM sample';
